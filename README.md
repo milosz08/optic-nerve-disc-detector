@@ -30,7 +30,7 @@ In order to speed up the operation and minimize false detections, the diameter o
 
 ### Hough black-box input and output
 
-In order to calculate the Hough transform, the houghTransform function was created taking parameters, respectively:
+In order to calculate the Hough transform, the `houghTransform` function was created taking parameters, respectively:
 
 * `img` - binary image with edge labeling,
 * `rMin` - the minimum radius of the circles sought,
@@ -46,7 +46,7 @@ The function returns two matrices:
 
 ### Self-estimating best result function
 
-The result of the Hough transform contains N circles (N as the number specified in the parameters of the `houghTransform` function). In order to determine the best circle, the `findOptimalCircle` function was created. This function finds the most optimal circle based on the largest edge pixel coverage. If a circle is found whose pixels cover the edges of the optic disc to the greatest extent, the function returns its XY coordinates.
+The result of the Hough transform contains `N` circles (N as the number specified in the parameters of the `houghTransform` function). In order to determine the best circle, the `findOptimalCircle` function was created. This function finds the most optimal circle based on the largest edge pixel coverage. If a circle is found whose pixels cover the edges of the optic disc to the greatest extent, the function returns its XY coordinates.
 
 The function takes the following parameters:
 
