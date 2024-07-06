@@ -6,7 +6,6 @@ Optic disc detector based on circular Hough transform, self-estimating best resu
 * [Detection steps](#detection-steps)
 * [Detection results](#detection-results)
 * [Author](#author)
-* [Project status](#project-status)
 * [License](#license)
 
 <a name="main-goal"></a>
