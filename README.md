@@ -1,4 +1,4 @@
-# Optic nerve disc detection
+# Optic nerve disc detector
 Optic nerve disc detector based on [circle Hough transform](https://en.wikipedia.org/wiki/Circle_Hough_Transform), self-estimating best result function and Canny edge detector.
 
 ## Table of content
