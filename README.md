@@ -8,11 +8,9 @@ Optic nerve disc detector based on [circle Hough transform](https://en.wikipedia
 * [Author](#author)
 * [License](#license)
 
-<a name="main-goal"></a>
 ## Main goal
 The main goal was to detect the optic disc in sample retinograms. The optic nerve disc can be damaged by diseases such as glaucoma or diabetic neuropathy. The Hough transform-based region of interest detection system identifies the optic nerve disc for subsequent feature identification and extraction using pattern recognition methods. 
 
-<a name="detection-steps"></a>
 ## Detection steps
 1. Selecting the best RGB component based on the histogram.
 2. Image adjustment (filtering and thresholding) and edge detection using the Canny method.
@@ -58,14 +56,11 @@ And returns:
 * `x` - vector of coordinates of the circle of the `0x` axis,
 * `y` - vector of coordinates of the circle of the `0y` axis.
 
-<a name="detection-results"></a>
 ## Detection results
 <img src=".github/step-4.png" width="700"/>
 
-<a name="author"></a>
 ## Author
-Created by Miłosz Gilga. If you have any questions about the application send message: [personal@miloszgilga.pl](mailto:personal@miloszgilga.pl).
+Created by Miłosz Gilga. If you have any questions about the application send message: [miloszgilga@gmail.com](mailto:miloszgilga@gmail.com).
 
-<a name="license"></a>
 ## License
 This program is on GNU-GPL 3.0 license.
