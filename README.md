@@ -17,8 +17,8 @@ The main goal was to detect the optic disc in sample retinograms. The optic nerv
 3. Circle detection using the Hough transform.
 4. Selection of the best district (based fully automatic method).
 
-> NOTE: 
-In order to speed up the operation and minimize false detections, the diameter of the optic disc was measured using the `imdistline` function. The resulting diameter value was divided by 2, and this value was used to narrow down the maximum radius of the search for circles by the Hough transform.
+> [!NOTE]
+> In order to speed up the operation and minimize false detections, the diameter of the optic disc was measured using the `imdistline` function. The resulting diameter value was divided by 2, and this value was used to narrow down the maximum radius of the search for circles by the Hough transform.
 
 <img src=".github/note.png" width="400"/>
 
